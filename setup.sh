@@ -44,12 +44,13 @@ NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/CTechDidik/CtechDidikAutoScriptVPN/main/ipdibenarkan | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
-echo -e "${green}Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
+clear
+echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
 sleep 5
 else
 clear
 echo ""
-echo "                      ${red}Harap Maaf!${red}                   "
+echo "                    ${red}Harap Maaf!${red}                   "
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
