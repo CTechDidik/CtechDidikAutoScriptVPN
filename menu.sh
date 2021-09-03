@@ -15,6 +15,7 @@ echo -e "* SERVER        : $ISP"
 echo -e "* City          : $CITY"
 echo -e "* IP VPS        : $IPVPS"
 echo -e "\e[1;33m=============================-Menu-=============================\e[0m'"
+echo -e "\e[1;31m*        CTech Didik Auto Script VPN\e[0m"
 echo -e "\e[1;31m* menu         : Senarai Menu yang Disediakan\e[0m"
 echo -e ""
 echo -e "\e[1;33m=========================-SSH & OpenVPN-========================\e[0m'"
@@ -101,7 +102,7 @@ echo -e "\e[1;31m* [60]\e[0m \e[1;32m: Displaying System Information\e[0m"
 echo -e "\e[1;31m* [61]\e[0m \e[1;32m: Info Script Auto Install\e[0m"
 echo -e "\e[1;31m* [62]\e[0m \e[1;32m: Exit From VPS \e[0m"
 echo -e ""
-echo -e '\e[1;33m=========================-Created BY CTechDidik-========================\e[0m'
+echo -e '\e[1;33m=========================-Script oleh CTechDidik dan SamVPN-========================\e[0m'
 echo -e ""
 read -p "        Pilih Nombor sahaja [1-62 or x]: " port
 echo -e ""
