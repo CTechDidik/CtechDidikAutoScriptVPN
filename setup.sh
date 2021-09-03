@@ -48,7 +48,7 @@ echo -e "${green}Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
 sleep 5
 else
 echo ""
-echo "                   ${red}Harap Maaf!${red}                "
+echo "                         ${red}Harap Maaf!${red}                "
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
