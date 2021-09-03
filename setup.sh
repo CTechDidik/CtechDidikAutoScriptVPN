@@ -20,9 +20,9 @@ echo '            Telegram SamVPN @sam_sfx     '
 echo ' .................................... '
 sleep 6
 clear
-red='\e[1;31m'
-green='\e[0;32m'
-NC='\e[0m'
+Red="\[\033[0;31m\]" 
+Green="\[\033[0;32m\]" 
+NC="\[\033[0;37m\]"
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 IZIN=$( curl http://111.111.111.111./ipdibenarkan | grep $MYIP )
