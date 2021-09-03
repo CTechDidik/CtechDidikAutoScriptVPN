@@ -26,7 +26,7 @@ echo ''
 echo ''
 echo ''
 echo ''
-echo '                     Tunggu 5 Saat!                         '
+echo '                       Tunggu 5 Saat!                       '
 echo ' .......................................................... '
 sleep 5
 clear
@@ -49,7 +49,7 @@ sleep 5
 else
 echo ""
 echo "                        Harap Maaf!                       "
-echo '            ${red} Anda Tidak Dibenarkan Menggunakan Script ini! ${NC}    '
+echo '        ${red}Anda Tidak Dibenarkan Menggunakan Script ini!${NC}    '
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
 echo '                  Telegram t.me/ctechdidik                '
