@@ -19,11 +19,11 @@ Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_p
 Info="${Green_font_prefix}[information]${Font_color_suffix}"
 
 if [[ -e /etc/wireguard/params ]]; then
-	echo -e "${Info} WireGuard sudah diinstal, silahkan ketik addwg untuk menambah client."
+	echo -e "${Info} WireGuard sudah diinstal, silakan type addwg untuk menambah client."
 	exit 1
 fi
 
-echo -e "${Info} Wireguard VPS AutoScript by Horasss"
+echo -e "${Info} Wireguard VPS AutoScript by CTech Didik"
 # Detect public IPv4 address and pre-fill for the user
 
 # Detect public interface and pre-fill for the user
