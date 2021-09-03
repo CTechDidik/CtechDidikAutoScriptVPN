@@ -47,11 +47,13 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${green}Anda Dibenarkan menggunakan Script ini...${NC}"
 sleep 5
 else
+echo ''
 echo -e "${red}Anda Tidak Dibanarkan Menggunakan Script ini!${NC}";
-echo 'Sila Hubungi Pihak CTech untuk mendapatkan kebenaran'
-echo 'Telegram t.me/ctechdidik'
-echo 'WhatsApp wa.me/00'
-sleep 5
+echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
+echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
+echo '                  Telegram t.me/ctechdidik                '
+echo '                     WhatsApp wa.me/00                    '
+sleep 10
 rm -f setup.sh
 exit 0
 fi
