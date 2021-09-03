@@ -47,9 +47,9 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
-echo "Sila Hubungi Pihak CTech untuk mendapatkan kebenaran"
-echo "Telegram t.me/ctechdidik"
-echo "WhatsApp wa.me/00"
+echo 'Sila Hubungi Pihak CTech untuk mendapatkan kebenaran'
+echo 'Telegram t.me/ctechdidik'
+echo 'WhatsApp wa.me/00'
 rm -f setup.sh
 exit 0
 fi
