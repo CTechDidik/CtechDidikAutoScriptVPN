@@ -17,20 +17,40 @@ echo '           Like dan Subscribe sekarang     '
 echo '         Telegram Channel t.me/ctechdidik     '
 echo '        Telegram Owner CTech Didik? rahsia     '
 echo '            Telegram SamVPN @sam_sfx     '
+echo ''
+echo ''
+echo ''
+echo ''
+echo ''
+echo '                Tunggu 5 Saat!              '
 echo ' .................................... '
-sleep 6
+sleep 5
 clear
-Red="\[\033[0;31m\]" 
-Green="\[\033[0;32m\]" 
-NC="\[\033[0;37m\]"
+if [ "${EUID}" -ne 0 ]; then
+		echo "You need to run this script as root"
+		exit 1
+fi
+if [ "$(systemd-detect-virt)" == "openvz" ]; then
+		echo "OpenVZ is not supported"
+		exit 1
+fi
+red="\[\033[0;31m\]"  
+green="\[\033[0;32m\]" 
+NC="\[\033[0;35m\]" 
 MYIP=$(wget -qO- ipinfo.io/ip);
-echo "Checking VPS"
-IZIN=$( curl http://111.111.111.111./ipdibenarkan | grep $MYIP )
+IZIN=$( curl http://111.111.111.11/vpnmit/ipdibenarkan | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
-echo "Only For Premium Users"
+echo "Please Contact Admin"
+echo "Telegram t.me/vpnmit"
+echo "WhatsApp wa.me/00"
+rm -f setup.sh
+exit 0
+fi
+if [ -f "/etc/v2ray/domain" ]; then
+echo "Script Already Installed"
 exit 0
 fi
 echo '============================================='
