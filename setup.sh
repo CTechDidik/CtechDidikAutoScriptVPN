@@ -50,12 +50,13 @@ sleep 5
 else
 clear
 echo ""
-echo "                    ${red}...${red}                   "
+echo "                        ${red}...${red}                   "
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
+echo "                         ${NC}...${NC}                    "
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
 echo '                  Telegram t.me/ctechdidik                '
-sleep 10
+sleep 15
 rm -f setup.sh
 exit 0
 fi
