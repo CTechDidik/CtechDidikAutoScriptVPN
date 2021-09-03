@@ -15,9 +15,10 @@ echo '                 Build in 2021       '
 echo '              Youtube: CTechDidik     '
 echo '           Like dan Subscribe sekarang     '
 echo '         Telegram Channel t.me/ctechdidik     '
-echo '               Telegram @sam_sfx     '
+echo '        Telegram Owner CTech Didik? rahsia     '
+echo '            Telegram SamVPN @sam_sfx     '
 echo ' .................................... '
-sleep 3
+sleep 6
 clear
 echo '============================================='
 echo '          Sila Tunggu sebentar '
