@@ -13,14 +13,14 @@ echo '                           SamVPN                           '
 echo 
 echo '                       Build in 2021                        '
 echo ''
-echo '                   Youtube: CTechDidik                      '
-echo '               Like dan Subscribe sekarang                  '
+echo '                    Youtube: CTechDidik                     '
+echo '                Like dan Subscribe sekarang                 '
 echo ''
 echo ''
 echo '                         Telegram                           '
-echo '            Telegram Channel t.me/ctechdidik                '
-echo '           Telegram Owner CTech Didik? rahsia               '
-echo '                Telegram SamVPN @sam_sfx                    '
+echo '              Telegram Channel t.me/ctechdidik              '
+echo '             Telegram Owner CTech Didik? rahsia             '
+echo '                  Telegram SamVPN @sam_sfx                  '
 echo ''
 echo ''
 echo ''
@@ -45,11 +45,13 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/CTechDidik/CtechDidikAutoScriptVPN/main/ipdibenarkan | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
+sleep 2
 else
 echo -e "${red}Permission Denied!${NC}";
 echo 'Sila Hubungi Pihak CTech untuk mendapatkan kebenaran'
 echo 'Telegram t.me/ctechdidik'
 echo 'WhatsApp wa.me/00'
+sleep 2
 rm -f setup.sh
 exit 0
 fi
