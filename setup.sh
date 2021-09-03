@@ -47,6 +47,7 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${green}Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
 sleep 5
 else
+clear
 echo ""
 echo "                         ${red}Harap Maaf!${red}                      "
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
