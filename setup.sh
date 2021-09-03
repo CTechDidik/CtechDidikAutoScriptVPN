@@ -48,8 +48,8 @@ echo -e "${green}Anda Dibenarkan menggunakan Script ini...${NC}"
 sleep 5
 else
 echo ""
-echo "                        Harap Maaf!                       "
-echo '        ${red}Anda Tidak Dibenarkan Menggunakan Script ini!${NC}    '
+echo "                   ${red}Harap Maaf!${red}                "
+echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
 echo '                  Telegram t.me/ctechdidik                '
