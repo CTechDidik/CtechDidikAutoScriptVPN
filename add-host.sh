@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "CHANGE DOMAIN?"
+echo "TUKAR DOMAIN?"
 select yn in "Yes" "No"; do
     case $yn in
         Yes ) make install; break;;
