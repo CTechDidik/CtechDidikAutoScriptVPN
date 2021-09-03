@@ -54,7 +54,6 @@ echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
 echo '                  Telegram t.me/ctechdidik                '
-echo '                     WhatsApp wa.me/001                   '
 sleep 10
 rm -f setup.sh
 exit 0
