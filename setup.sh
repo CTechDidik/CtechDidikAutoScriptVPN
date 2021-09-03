@@ -140,7 +140,7 @@ echo ""  | tee -a log-install.txt
 echo "   - 1st Dev/Main            : CTechDidik"  | tee -a log-install.txt
 echo "   - 1st Dev/Youtube         : CTech Didik -Subscribe Now!"  | tee -a log-install.txt
 echo "   - 2nd Dev/ Telegram       : @sam_sfx"  | tee -a log-install.txt
-echo "------------------Script Created By CTechDidik---------------------" | tee -a log-install.txt
+echo "------------------Script Created By CTechDidik & SamVPN---------------------" | tee -a log-install.txt
 sleep 3
 echo '============================================='
 echo '      SISTEM AKAN REBOOT SEBENTAR LAGI'
