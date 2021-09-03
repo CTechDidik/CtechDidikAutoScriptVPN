@@ -42,7 +42,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
-IZIN=$( curl https://raw.githubusercontent.com/CTechDidik/CtechDidikAutoScriptVPN/main/ipdibenarkan | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/syfqsamvpn/ctech/main/ipdibenarkan | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 clear
 echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
