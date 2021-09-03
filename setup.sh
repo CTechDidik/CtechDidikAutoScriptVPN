@@ -5,7 +5,7 @@ echo ' / ___|_   _| ____/ ___| | | |    |  _ \_ _|  _ \_ _| |/ /  '
 echo '| |     | | |  _|| |   | |_| |    | | | | || | | | || ' /  ''
 echo '| |___  | | | |__| |___|  _  |    | |_| | || |_| | || . \ '''
 echo ' \____| |_| |_____\____|_| |_|    |____/___|____/___|_|\_\  '
-echo '         	       Free Script untuk semua!                   '
+echo '         	  Free Script untuk semua!                   '
 echo ''
 echo ' .......................................................... '
 echo '                 Autoscript By CTech Didik'
@@ -44,7 +44,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/CTechDidik/CtechDidikAutoScriptVPN/main/ipdibenarkan | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
-echo -e "${green}Anda Dibenarkan menggunakan Script ini...${NC}"
+echo -e "${green}Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
 sleep 5
 else
 echo ""
