@@ -57,7 +57,7 @@ echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
 echo '    copy link utube ini:     '
 echo '                  Telegram t.me/ctechdidik                '
-sleep 15
+sleep 20
 rm -f setup.sh
 exit 0
 fi
