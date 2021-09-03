@@ -44,14 +44,14 @@ NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl https://raw.githubusercontent.com/CTechDidik/CtechDidikAutoScriptVPN/main/ipdibenarkan | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
-echo -e "${green}Permission Accepted...${NC}"
-sleep 2
+echo -e "${green}Anda Dibenarkan menggunakan Script ini...${NC}"
+sleep 5
 else
-echo -e "${red}Permission Denied!${NC}";
+echo -e "${red}Anda Tidak Dibanarkan Menggunakan Script ini!${NC}";
 echo 'Sila Hubungi Pihak CTech untuk mendapatkan kebenaran'
 echo 'Telegram t.me/ctechdidik'
 echo 'WhatsApp wa.me/00'
-sleep 2
+sleep 5
 rm -f setup.sh
 exit 0
 fi
