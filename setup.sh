@@ -46,11 +46,11 @@ IZIN=$( curl https://raw.githubusercontent.com/CTechDidik/CtechDidikAutoScriptVP
 if [ $MYIP = $IZIN ]; then
 clear
 echo -e "${green}Tahniah! Anda Dibenarkan menggunakan Script Ctech Didik...${NC}"
-sleep 7
+sleep 5
 else
 clear
 echo ""
-echo "                    ${red}Harap Maaf!${red}                   "
+echo "                   ${red}Harap Maaf!${red}                   "
 echo '        Anda Tidak Dibenarkan Menggunakan Script ini!     '
 echo 'Sila Hubungi Pihak CTech Didik untuk mendapatkan kebenaran'
 echo '    Tonton video Youtube saya dan dapatkan kebenaran!     '
