@@ -2,12 +2,12 @@
 ### Anda hanya perlu menyalin script dibawah dan paste di Server anda! 
 
 #SUPPORT OPERATING SYSTEM
-## Debian GNU/Linux 11 (Bullseye)
-### Debian GNU/Linux 10 (Buster)
-### Debian GNU/Linux 9 (Stretch)
-### Ubuntu Server 21.04 LTS (Hirsute Hippo)
-### Ubuntu Server 20.04 LTS (Focal Fossa)
-### Ubuntu Server 18.04 LTS (Bionic Beaver)
+> Debian GNU/Linux 11 (Bullseye)
+> Debian GNU/Linux 10 (Buster)
+> Debian GNU/Linux 9 (Stretch)
+> Ubuntu Server 21.04 LTS (Hirsute Hippo)
+> Ubuntu Server 20.04 LTS (Focal Fossa)
+> Ubuntu Server 18.04 LTS (Bionic Beaver)
 
 
 ```
