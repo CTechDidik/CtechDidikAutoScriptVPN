@@ -1,7 +1,7 @@
 # Ctech Didik Auto Script VPN
 ### Anda hanya perlu menyalin script dibawah dan paste di Server anda! 
 
-#SUPPORT OPERATING SYSTEM
+# SUPPORT OPERATING SYSTEM
 > Debian GNU/Linux 11 (Bullseye)
 >
 > Debian GNU/Linux 10 (Buster)
