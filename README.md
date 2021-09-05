@@ -1,4 +1,4 @@
-# Ctech Didik Auto Script VPN
+# CTech Didik Auto Script VPN
 ### Anda hanya perlu menyalin script dibawah dan paste di Server anda! 
 
 ## SUPPORT OPERATING SYSTEM
