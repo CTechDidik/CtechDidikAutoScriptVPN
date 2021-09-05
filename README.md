@@ -28,7 +28,7 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 
 
 
-## Link YouTube pemudahcara
+## Link Pemudahcara
 
 
 ### Link YouTube cara install
@@ -39,4 +39,9 @@ https://youtu.be/CMiaGpTj6vs
 ### Link YouTube cara buat untuk Multi-Telco BUG, menggunakan satu domain sahaja
 ```
 https://youtu.be/3ZeYfnRGVgw
+```
+
+### Link Telegram Channel
+```
+https://t.me/ctechdidik
 ```
