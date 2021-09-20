@@ -35,6 +35,10 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 ```
 https://youtu.be/CMiaGpTj6vs
 ```
+```
+https://youtu.be/gWk_k3SoaoI
+```
+
 
 ### Link YouTube cara buat untuk Multi-Telco BUG, menggunakan satu domain sahaja
 ```
