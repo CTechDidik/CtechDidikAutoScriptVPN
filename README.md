@@ -2,7 +2,7 @@
 
 
 ## SUPPORT OPERATING SYSTEM
-> Debian GNU/Linux 11 (Bullseye)
+> Debian GNU/Linux 11 (Bullseye) -Not stable with this script- Sesetengah Server akan ada masalah Squid
 >
 > Debian GNU/Linux 10 (Buster)
 >
